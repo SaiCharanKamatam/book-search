@@ -1,0 +1,39 @@
+.conatiner{
+  display: flex;
+  flex-direction: column;
+}
+
+.header{
+  background-color: antiquewhite;
+  width: 100vw;
+  text-align: center;
+  font-size: 1.6rem;
+  padding: 10px;
+}
+
+.body-container{
+  width: 100vw;
+  display: flex;
+  background-color: rgb(129, 89, 30);
+  height: 100vh;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+
+}
+#search-field{
+  width: 300px;
+  height: 20px;
+}
+
+#search-btn{
+  height: 25px;
+  cursor: pointer;
+}
+
+.book-container {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  gap: 4px;
+  margin-top: 5px;
+}

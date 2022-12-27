@@ -1,0 +1,55 @@
+.image-logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 4px;
+}
+.title{
+    position: absolute;
+    bottom: 10px;
+    font-size: 9px;
+    color: white;
+    background: rgba(66, 64, 66, 0.65);
+    text-align: center;
+    width: 100px;
+}
+.holder{
+    position: relative;
+}
+
+.hover-card-1{
+    display: flex;
+    position:absolute;
+    z-index: 4;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100px;
+    height: 100px;
+    top: 10px;
+    background-color: rgba(66, 64, 66, 0.65);
+
+}
+.hover-card-2{
+    display: none;
+    position:absolute;
+    z-index: 4;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100px;
+    height: 100px;
+    top: 10px;
+    background-color: rgba(66, 64, 66, 0.65);
+
+}
+
+.text{
+    text-align: center;
+    font-size: 10px;
+    width: 100px;
+    color: white;
+}
+
+.container{
+    position: relative;
+}
